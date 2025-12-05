@@ -41,6 +41,7 @@
 		     "allwinner,sun5i-a13-mmc";
 	pinctrl-names = "default";
 	cap-sd-highspeed;
+	cd-inverted;
 	bus-width = <4>;
 	removable = <1>;
 	status = "okay";
