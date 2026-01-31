@@ -84,3 +84,15 @@
 &usbphy {
 	status = "okay";
 };
+
+&i2c2_pins {
+   bias-pull-up;
+};
+
+&i2c1_pins {
+   bias-pull-up;
+};
+
+&i2c0_pins {
+   bias-pull-up;
+};
